@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: white;
+}
+
+.container {
+  display: flex;
+}
+
+.container img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.left {
+  flex: 1;
+  padding: 40px;
+  color : white;
+  z-index: 1;
+}
+
+.left h1 {
+  color: red;
+  font-size: 80px;
+  font-family: cursive;
+}
+
+.left h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  margin-top: 2px;
+  font-family: Chalkduster;
+}
+
+.left p {
+  font-size: 24px;
+  font-family: Cochin;
+}
+.box {
+  background-color: unset;
+  border-radius: 1em;
+  position: relative;
+  padding: 20px;
+  opacity: 20%;
+}
+
+.right {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  width: 100%; /* Ensure full width */
+  height: 100%; /* Ensure full height */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: flex-end; /* Align items to the bottom */
+}
+
+.image-container img {
+  flex: 1;
+  height: 50%;
+  width: 50%; /* Adjust as needed */
+  border-radius: 10px; /* Optional: Add rounded corners */
+}
+
+.button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #2f2a2a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

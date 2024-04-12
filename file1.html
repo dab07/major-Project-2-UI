@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>American Sign Language</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+<header>
+  <h1>American Sign Language (ASL)</h1>
+</header>
+<section class="content">
+  <p>American Sign Language (ASL) is a natural language that serves as the predominant sign language of Deaf communities in the United States and most of Anglophone Canada.</p>
+  <p>ASL is a visual language, distinct from spoken languages, with its own grammar and syntax. It consists of gestures, hand movements, and facial expressions to convey meaning.</p>
+  <p>Learning ASL is important for fostering communication and inclusivity within the Deaf community and promoting understanding and accessibility for all individuals.</p>
+  <div class="image-container">
+    <img src="https://www.verywellhealth.com/thmb/O3xGZqW82bMVt2gLzyZS14fOkLU=/2121x1414/filters:no_upscale():max_bytes(150000):strip_icc()/sign-language-interpreter-assisting-deaf-student-in-classroom-1211319313-084a96a805df4a6f85cb9268b1f62533.jpg" alt="American Sign Language">
+    <img src="https://d1e3z2jco40k3v.cloudfront.net/-/media/project/nyu/asllexicon/basics/historyaslinuslibrary.jpg?rev=ea9af75d1135495ba4c1db0c65a9d9cc&hash=CBF1460BBD4426DD4F34694A335601C6" alt="American Sign Language">
+  </div>
+</section>
+<section class="prediction">
+  <h2>Predict American Sign Language</h2>
+  <form action="/start" method="post">
+    <input type="submit" value="Start Prediction">
+  </form>
+</section>
+</body>
+</html>
